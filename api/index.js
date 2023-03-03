@@ -10,8 +10,8 @@ app.use((req, res, next) => {
     next();
 });
 //route
-app.get("/api/avita", (req, res) => {
-    res.send("avita");
+app.get("/api/salam", (req, res) => {
+    res.send("assalamualaikum");
 });
 
 app.listen(3000, () => {
